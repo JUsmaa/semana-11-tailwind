@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso HTML</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        header{
+            background-color: rgb(179, 255, 255);
+        }
+        body {
+          font-family: Arial, sans-serif;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        h1, h2 {
+          color: #333;
+        }
+        p {
+          color: #666;
+        }
+        ul {
+          color: #666;
+          list-style-type: square;
+        }
+        a {
+          color: #007bff;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="text-center sm:text-left">
+              <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">curso HTML basico</h1>
+      
+              <p class="mt-1.5 text-sm text-gray-500">En este curso aprenderas los pasos basicos para crear tu primera pagina web</p>
+            </div>
+      
+            <div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
+              <img src="data:image/png;base64,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" alt="" width="100">
+            </div>
+          </div>
+        </div>
+      </header>
+      <h1>Curso Corto: Mi Primera Página HTML</h1>
+  
+  <h2>Lección 1: Introducción a HTML</h2>
+  <p><strong>Concepto:</strong> HTML es el lenguaje estándar para crear páginas web. Define la estructura y el contenido de una página web utilizando elementos etiquetados.</p>
+  <p><strong>Ejercicio:</strong> Investiga sobre la estructura básica de un documento HTML, que incluye etiquetas como &lt;html&gt;, &lt;head&gt;, &lt;title&gt; y &lt;body&gt;.</p>
+  
+  <h2>Lección 2: Creación de la Estructura Básica</h2>
+  <p><strong>Actividad:</strong> Abre un editor de texto simple como Notepad (Windows) o TextEdit (Mac). Escribe la estructura básica de un documento HTML:</p>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="es"&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Mi Primera Página&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1&gt;Bienvenido a Mi Primera Página&lt;/h1&gt;
+        &lt;p&gt;¡Hola mundo!&lt;/p&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
+  
+  <h2>Lección 3: Etiquetas y Contenido</h2>
+  <p><strong>Actividad:</strong> Experimenta añadiendo diferentes etiquetas HTML y su contenido dentro del cuerpo (&lt;body&gt;) de tu página. Prueba con etiquetas como &lt;p&gt;, &lt;h2&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;a&gt;, etc.</p>
+  <pre>
+    &lt;h2&gt;Mi Segunda Sección&lt;/h2&gt;
+    &lt;p&gt;Este es un párrafo en mi segunda sección.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Elemento de lista 1&lt;/li&gt;
+      &lt;li&gt;Elemento de lista 2&lt;/li&gt;
+      &lt;li&gt;Elemento de lista 3&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;a href="https://www.example.com"&gt;Enlace a Ejemplo.com&lt;/a&gt;
+  </pre>
+  
+  <h2>Lección 4: Añadir Estilos (Opcional)</h2>
+  <p><strong>Concepto:</strong> Aunque no es parte de HTML, el CSS (Cascading Style Sheets) se utiliza para estilizar las páginas web.</p>
+  <p><strong>Actividad:</strong> Experimenta añadiendo estilos a tu página. Puedes hacerlo internamente utilizando la etiqueta &lt;style&gt; dentro de la sección &lt;head&gt;, o externamente en un archivo separado con extensión .css.</p>
+  
+  <h2>Lección 5: Publicación</h2>
+  <p><strong>Actividad:</strong> Guarda tu archivo HTML con una extensión .html. Abre el archivo en un navegador web para ver cómo se ve tu página. Si estás satisfecho con el resultado, ¡compártelo con amigos o publícalo en línea!</p>
+      
+
+</body>
+</html>
